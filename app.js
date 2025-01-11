@@ -10,7 +10,7 @@ const flash=require('connect-flash')
 const mongodbConnection=require('./config/mongodb')
 const nocache=require('nocache')
 
-
+require('dotenv').config();
 
 
 // port number
